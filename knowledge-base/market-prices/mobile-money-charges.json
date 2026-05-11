@@ -1,0 +1,123 @@
+{
+  "last_updated": "2026-04-18",
+  "source": "MTN Uganda, Airtel Uganda official tariff schedules (April 2026)",
+  "disclaimer": "Mobile money charges are regulated by Bank of Uganda and may change. Always confirm current charges on the provider's USSD menu (*165# for MTN, *185# for Airtel) or app before transacting.",
+  "mtn_mobile_money": {
+    "provider": "MTN MoMo",
+    "ussd_code": "*165#",
+    "send_to_mtn": [
+      {"range": "500-2,500", "charge_ugx": 100},
+      {"range": "2,501-5,000", "charge_ugx": 300},
+      {"range": "5,001-15,000", "charge_ugx": 500},
+      {"range": "15,001-30,000", "charge_ugx": 500},
+      {"range": "30,001-60,000", "charge_ugx": 500},
+      {"range": "60,001-125,000", "charge_ugx": 1000},
+      {"range": "125,001-250,000", "charge_ugx": 1000},
+      {"range": "250,001-500,000", "charge_ugx": 1000},
+      {"range": "500,001-1,000,000", "charge_ugx": 1000},
+      {"range": "1,000,001-3,000,000", "charge_ugx": 1000},
+      {"range": "3,000,001-5,000,000", "charge_ugx": 1000}
+    ],
+    "send_to_other_network": [
+      {"range": "500-2,500", "charge_ugx": 600},
+      {"range": "2,501-5,000", "charge_ugx": 800},
+      {"range": "5,001-15,000", "charge_ugx": 1000},
+      {"range": "15,001-30,000", "charge_ugx": 1500},
+      {"range": "30,001-60,000", "charge_ugx": 2000},
+      {"range": "60,001-125,000", "charge_ugx": 3500},
+      {"range": "125,001-250,000", "charge_ugx": 5000},
+      {"range": "250,001-500,000", "charge_ugx": 7500},
+      {"range": "500,001-1,000,000", "charge_ugx": 12500},
+      {"range": "1,000,001-3,000,000", "charge_ugx": 15000},
+      {"range": "3,000,001-5,000,000", "charge_ugx": 15000}
+    ],
+    "withdraw_from_agent": [
+      {"range": "500-2,500", "charge_ugx": 330},
+      {"range": "2,501-5,000", "charge_ugx": 500},
+      {"range": "5,001-15,000", "charge_ugx": 1000},
+      {"range": "15,001-30,000", "charge_ugx": 1750},
+      {"range": "30,001-60,000", "charge_ugx": 2750},
+      {"range": "60,001-125,000", "charge_ugx": 4500},
+      {"range": "125,001-250,000", "charge_ugx": 7500},
+      {"range": "250,001-500,000", "charge_ugx": 12500},
+      {"range": "500,001-1,000,000", "charge_ugx": 20000},
+      {"range": "1,000,001-3,000,000", "charge_ugx": 25000}
+    ],
+    "pay_merchant": "Free (no transaction fee for paying at MoMo Pay merchants)",
+    "buy_airtime": "Free",
+    "agent_commission_note": "Agents earn commission on deposits (free to customer) and withdrawals. Typical agent float requirement: UGX 1,000,000+ for urban, UGX 500,000 for rural."
+  },
+  "airtel_money": {
+    "provider": "Airtel Money",
+    "ussd_code": "*185#",
+    "send_to_airtel": [
+      {"range": "500-2,500", "charge_ugx": 100},
+      {"range": "2,501-5,000", "charge_ugx": 250},
+      {"range": "5,001-15,000", "charge_ugx": 450},
+      {"range": "15,001-30,000", "charge_ugx": 450},
+      {"range": "30,001-60,000", "charge_ugx": 450},
+      {"range": "60,001-125,000", "charge_ugx": 900},
+      {"range": "125,001-250,000", "charge_ugx": 900},
+      {"range": "250,001-500,000", "charge_ugx": 900},
+      {"range": "500,001-1,000,000", "charge_ugx": 900},
+      {"range": "1,000,001-3,000,000", "charge_ugx": 900},
+      {"range": "3,000,001-5,000,000", "charge_ugx": 900}
+    ],
+    "send_to_other_network": [
+      {"range": "500-2,500", "charge_ugx": 550},
+      {"range": "2,501-5,000", "charge_ugx": 750},
+      {"range": "5,001-15,000", "charge_ugx": 950},
+      {"range": "15,001-30,000", "charge_ugx": 1400},
+      {"range": "30,001-60,000", "charge_ugx": 1900},
+      {"range": "60,001-125,000", "charge_ugx": 3300},
+      {"range": "125,001-250,000", "charge_ugx": 4700},
+      {"range": "250,001-500,000", "charge_ugx": 7000},
+      {"range": "500,001-1,000,000", "charge_ugx": 12000},
+      {"range": "1,000,001-3,000,000", "charge_ugx": 14500},
+      {"range": "3,000,001-5,000,000", "charge_ugx": 14500}
+    ],
+    "withdraw_from_agent": [
+      {"range": "500-2,500", "charge_ugx": 330},
+      {"range": "2,501-5,000", "charge_ugx": 480},
+      {"range": "5,001-15,000", "charge_ugx": 950},
+      {"range": "15,001-30,000", "charge_ugx": 1700},
+      {"range": "30,001-60,000", "charge_ugx": 2650},
+      {"range": "60,001-125,000", "charge_ugx": 4300},
+      {"range": "125,001-250,000", "charge_ugx": 7200},
+      {"range": "250,001-500,000", "charge_ugx": 12000},
+      {"range": "500,001-1,000,000", "charge_ugx": 19500},
+      {"range": "1,000,001-3,000,000", "charge_ugx": 24000}
+    ],
+    "pay_merchant": "Free (Airtel Money merchant payments incur no fee)",
+    "buy_airtime": "Free",
+    "agent_commission_note": "Agents earn commission on cash-in/cash-out. Minimum float: UGX 500,000. Register at any Airtel service centre with National ID and trading licence."
+  },
+  "data_bundles": {
+    "last_updated": "2026-04-18",
+    "mtn_bundles": [
+      {"data": "1.5GB", "validity": "7 days", "price_ugx": 5000},
+      {"data": "3.2GB", "validity": "30 days", "price_ugx": 10000},
+      {"data": "7.5GB", "validity": "30 days", "price_ugx": 20000},
+      {"data": "12GB", "validity": "30 days", "price_ugx": 30000},
+      {"data": "22GB", "validity": "30 days", "price_ugx": 50000},
+      {"data": "50GB", "validity": "30 days", "price_ugx": 100000},
+      {"data": "100MB", "validity": "24 hours", "price_ugx": 500},
+      {"data": "350MB", "validity": "7 days", "price_ugx": 2000}
+    ],
+    "airtel_bundles": [
+      {"data": "1.5GB", "validity": "7 days", "price_ugx": 5000},
+      {"data": "3.3GB", "validity": "30 days", "price_ugx": 10000},
+      {"data": "7GB", "validity": "30 days", "price_ugx": 20000},
+      {"data": "12GB", "validity": "30 days", "price_ugx": 30000},
+      {"data": "22GB", "validity": "30 days", "price_ugx": 50000},
+      {"data": "50GB", "validity": "30 days", "price_ugx": 100000},
+      {"data": "200MB", "validity": "3 days", "price_ugx": 1000},
+      {"data": "500MB", "validity": "7 days", "price_ugx": 2500}
+    ],
+    "business_tip": "For mobile money agents and digital businesses: buy monthly bundles (UGX 20,000-50,000 tier) for best value per GB. MTN and Airtel both offer night bundles (11pm-6am) at lower rates. For reselling data bundles to customers, agents earn UGX 50-200 per transaction."
+  },
+  "mobile_money_tax": {
+    "note": "Uganda levies a 0.5% excise duty on mobile money withdrawals (introduced 2018, reduced from 1% in 2019). This is automatically deducted. Example: withdrawing UGX 100,000 incurs UGX 500 tax on top of the withdrawal fee.",
+    "business_impact": "Factor this into pricing if your customers pay via mobile money. Many small businesses add 1-2% to mobile money prices to cover transaction costs."
+  }
+}

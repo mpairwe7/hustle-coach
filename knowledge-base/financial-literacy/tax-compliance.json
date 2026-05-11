@@ -1,0 +1,30 @@
+[
+  {
+    "text": "UNDERSTANDING UGANDA TAX TYPES. Every business in Uganda must be aware of the main tax categories. (1) Presumptive Tax — for small businesses with annual turnover under UGX 150 million: pay just 1.5% of your turnover. This is the simplest tax for most micro-enterprises. Example: if your business earns UGX 50 million/year, you pay UGX 750,000 in tax for the whole year. (2) Income Tax — progressive brackets for individuals: 0% on monthly income up to UGX 235,000, 10% on UGX 235,001-335,000, 20% on UGX 335,001-410,000, 30% on UGX 410,001-10,000,000, and 40% on income above UGX 10,000,000/month. Corporate tax rate is 30% of chargeable income. (3) VAT (Value Added Tax) — 18% standard rate. Registration is mandatory when your annual turnover exceeds UGX 150 million. Below that threshold, VAT registration is optional. (4) Withholding Tax — 6% is withheld on payments for goods and services supplied to government entities and large organisations. This is deducted at source and credited to your tax account. Understanding which category you fall into is the first step to staying compliant and avoiding penalties.",
+    "source": "hustle-coach/financial-literacy",
+    "domain": "finance",
+    "topic": "Tax Compliance",
+    "section": "Tax Types"
+  },
+  {
+    "text": "VAT ACCOUNTING FOR SMALL BUSINESSES. VAT (Value Added Tax) in Uganda is 18% on most goods and services. When to register: VAT registration becomes MANDATORY when your annual turnover exceeds UGX 150 million. Below this threshold, you can register voluntarily if you want to claim input VAT credits, but it's usually not worth the paperwork for very small businesses. How to charge VAT: Add 18% to your selling price on invoices. Example: if your product costs UGX 50,000, charge UGX 50,000 + UGX 9,000 VAT = UGX 59,000 total. Your invoice must show VAT separately. Input vs Output VAT: Output VAT is what you charge customers (UGX 9,000 in the example above). Input VAT is what you pay on business purchases. You remit the difference to URA. If you bought supplies for UGX 100,000 + UGX 18,000 VAT, and sold goods for UGX 200,000 + UGX 36,000 VAT, you owe URA: UGX 36,000 - UGX 18,000 = UGX 18,000. Filing: Monthly VAT returns must be filed by the 15th of the following month using URA's e-filing portal at ura.go.ug. Penalties for late filing: UGX 200,000 or 2% of the tax due, whichever is greater, PLUS interest of 2% per month on unpaid tax. Keep all receipts and invoices — URA can audit you going back 5 years.",
+    "source": "hustle-coach/financial-literacy",
+    "domain": "finance",
+    "topic": "Tax Compliance",
+    "section": "VAT Accounting"
+  },
+  {
+    "text": "TAX CALENDAR FOR YOUTH ENTREPRENEURS. Staying on top of tax deadlines prevents costly penalties. Here is your annual tax calendar: MONTHLY DEADLINES (by the 15th of the following month): VAT returns and payment (if registered), PAYE (Pay As You Earn) remittance for employee wages, NSSF contributions for employees. QUARTERLY DEADLINES: Provisional income tax installments — due on the last day of the 3rd, 6th, 9th, and 12th month of your accounting period. Each installment is 25% of your estimated annual tax. ANNUAL DEADLINES: Individual income tax return — due by June 30 each year for the preceding calendar year. Corporate income tax return — due 6 months after your company's financial year-end. Trading license renewal — apply between January and March each year at your local council. IMPORTANT FIRST STEP: Register for a TIN (Taxpayer Identification Number) — it is completely FREE. Register online at ura.go.ug or visit any URA service centre with your National ID. You need a TIN to: open a business bank account, apply for government tenders, register for VAT, file any tax return. Pro tip: Set phone reminders for the 10th of every month so you have 5 days to prepare and file before the 15th deadline.",
+    "source": "hustle-coach/financial-literacy",
+    "domain": "finance",
+    "topic": "Tax Compliance",
+    "section": "Tax Calendar"
+  },
+  {
+    "text": "NSSF CONTRIBUTIONS EXPLAINED. The National Social Security Fund (NSSF) is Uganda's mandatory retirement savings scheme. Contribution rates: Employer contributes 10% of each employee's gross salary. Employee contributes 5% of their gross salary (deducted from wages). Total contribution: 15% of gross salary. Example: If you pay an employee UGX 500,000/month gross salary, you contribute UGX 50,000 (employer share) and deduct UGX 25,000 from their wages (employee share). Total remitted to NSSF: UGX 75,000/month. Deadline: Contributions must be remitted by the 15th of the following month. Late payment penalty: 5% per month on the outstanding amount. Registration: NSSF registration is MANDATORY for all employers with 5 or more employees. Employers with fewer than 5 employees can register voluntarily. Self-employed individuals can make voluntary contributions — minimum UGX 5,000/month. Benefits: (1) Age benefit — lump sum paid at age 55 or after 10 years of contributions (whichever is later). (2) Withdrawal benefit — if you leave formal employment and have contributed for at least 12 months. (3) Invalidity/disability benefit — if you become permanently unable to work. (4) Survivor benefit — paid to dependents if the member dies. Register at any NSSF branch with: company registration documents, employee list with National IDs, and completed NSSF forms.",
+    "source": "hustle-coach/financial-literacy",
+    "domain": "finance",
+    "topic": "Tax Compliance",
+    "section": "NSSF Contributions"
+  }
+]

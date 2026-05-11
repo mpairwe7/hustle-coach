@@ -1,0 +1,32 @@
+# Core API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+
+# LLM — multi-provider (pick one, all have free tiers)
+openai>=1.50.0            # Works with Groq, OpenRouter, Together, etc.
+anthropic>=0.42.0         # Optional: only needed for LLM_PROVIDER=anthropic
+
+# Hybrid Retrieval
+sentence-transformers>=3.4
+qdrant-client>=1.13
+numpy>=1.26
+
+# Cache & Rate Limiting
+redis>=5.0.0
+
+# Auth
+pyjwt>=2.9.0
+bcrypt>=4.2.0
+
+# SSE Streaming
+sse-starlette>=2.0.0
+
+# Document Processing (indexing)
+pymupdf4llm>=0.0.17
+pymupdf>=1.25.3
+pandas>=2.2
+
+# Speech (optional)
+# sherpa-onnx>=1.10
+# piper-tts>=1.2

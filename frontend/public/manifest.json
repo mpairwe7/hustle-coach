@@ -1,0 +1,50 @@
+{
+  "name": "HustleScale — National Youth Micro-Enterprise Accelerator",
+  "short_name": "HustleScale",
+  "description": "Empowering Uganda's youth (18-30) to turn business ideas into sustainable micro-enterprises. AI-powered business plans, funding access, progress tracking, and market intelligence.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#FFF8E7",
+  "theme_color": "#2D6A4F",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Business Coach",
+      "short_name": "Chat",
+      "url": "/chat",
+      "description": "Chat with your AI business coach",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Dashboard",
+      "short_name": "Dashboard",
+      "url": "/dashboard",
+      "description": "Track your business progress",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Leaderboard",
+      "short_name": "Leaders",
+      "url": "/leaderboard",
+      "description": "National entrepreneur rankings",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["business", "education", "finance", "productivity"],
+  "prefer_related_applications": false,
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
