@@ -11,19 +11,21 @@ National Youth Micro-Enterprise Accelerator for Uganda, deployed on Crane Cloud 
 | Size | ~5.7 GB |
 | Port | 8080 (nginx → backend:8081 + frontend:3000) |
 | Cluster | RENU (`9e81a70e-8460-4e5d-b0a8-17abcac30f68`) |
-| Project ID | `5954261f-ec9a-4e7e-9019-d842e6653e64` |
+| GitHub | https://github.com/mpairwe7/hustle-coach |
 
 ## Environment Variables
 
 | Key | Value | Description |
 |-----|-------|-------------|
+| `GROQ_API_KEY` | `gsk_...` (secret) | Groq free tier API key |
+| `GROQ_MODEL` | `llama-3.3-70b-versatile` | Groq model |
+| `LLM_BACKEND` | `groq` | LLM provider |
 | `PORT` | `8081` | Backend port (internal) |
 | `LOG_LEVEL` | `info` | Logging level |
-| `ANTHROPIC_API_KEY` | *(set in Crane Cloud)* | Claude API for coaching |
 
-For multi-provider LLM, add:
-- `GROQ_API_KEY` — Groq free tier
-- `OPENROUTER_API_KEY` — OpenRouter (optional)
+## Retrieval
+
+HustleCoach already loads BM25 before Qdrant and has smart KB path resolution (`Path("knowledge-base")` → `Path(__file__).parents[2]` → `/app/knowledge-base`). Pre-built index: 162 docs, 4188 terms from business models, market prices, funding sources.
 
 ## Build & Deploy
 
@@ -32,19 +34,11 @@ docker build -t landwind/hustle-coach:latest -f Dockerfile.cranecloud .
 docker push landwind/hustle-coach:latest
 ```
 
-## Architecture
-
-```
-nginx:8080
-  ├── /health, /v1/* → uvicorn:8081
-  ├── /_next/static/ → cached static assets
-  └── / → Next.js:3000
-```
-
-Knowledge base (27+ business models, market prices, funding sources, regulatory guides) baked into image.
-
 ## Verified Endpoints
 
-- `/health` — `{"status": "ok", "service": "hustle-scale", "retriever": true, "market_intel": true}`
-- `/` — Frontend UI (HTTP 200)
-- `/docs` — Swagger API docs (HTTP 200)
+| Endpoint | Status | Response |
+|----------|--------|----------|
+| `/health` | 200 | `{"status":"ok","service":"hustle-scale","retriever":true,"market_intel":true}` |
+| `/v1/chat` | 200 | Groq LLM coaching response |
+| `/` | 200 | Frontend UI |
+| `/docs` | 200 | Swagger API docs |
