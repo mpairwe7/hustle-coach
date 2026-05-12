@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1B4332"/><stop offset="100%" stop-color="#2D6A4F"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="100" y="220" font-family="system-ui,sans-serif" font-size="72" font-weight="bold" fill="white">HustleScale</text>
+  <text x="100" y="300" font-family="system-ui,sans-serif" font-size="36" fill="#D4A017">Youth Micro-Enterprise Accelerator</text>
+  <text x="100" y="370" font-family="system-ui,sans-serif" font-size="24" fill="#F0D060">Business Plans • Funding • Market Prices • Coaching</text>
+  <text x="100" y="420" font-family="system-ui,sans-serif" font-size="20" fill="#40916C">8 Agentic Tools • 27 Business Models • 13 Funding Sources</text>
+  <text x="100" y="470" font-family="system-ui,sans-serif" font-size="20" fill="#52B788">English • Luganda • Runyankole • Swahili</text>
+  <text x="100" y="530" font-family="system-ui,sans-serif" font-size="20" fill="#74C69D">Empowering Uganda's Youth (18-30)</text>
+  <circle cx="1050" cy="315" r="120" fill="none" stroke="#D4A017" stroke-width="4"/>
+  <text x="1050" y="300" text-anchor="middle" font-family="system-ui,sans-serif" font-size="48" fill="white">💼</text>
+  <text x="1050" y="350" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#D4A017">Uganda</text>
+</svg>

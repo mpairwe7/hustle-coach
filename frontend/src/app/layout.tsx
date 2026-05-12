@@ -6,25 +6,30 @@ import { LocaleHtmlLang } from "@/components/LocaleHtmlLang";
 import { ServiceWorkerRegistrar } from "@/components/ServiceWorkerRegistrar";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://hustle-coach.renu-01.cranecloud.io"),
   title: "HustleScale — The National Youth Micro-Enterprise Accelerator",
   description:
     "Empowering Uganda's youth (18-30) to turn business ideas into sustainable, scalable micro-enterprises. " +
     "AI-powered business plans, funding matching, progress tracking, and mentorship — in your language.",
   manifest: "/manifest.json",
   openGraph: {
-    title: "HustleScale — The National Youth Micro-Enterprise Accelerator",
-    description:
-      "AI-powered business plans, funding matching, progress tracking, and mentorship for Uganda's youth entrepreneurs.",
-    images: [{ url: "/icons/icon-192.png", width: 192, height: 192, alt: "HustleScale logo" }],
-    type: "website",
-  },
-  twitter: {
-    card: "summary",
     title: "HustleScale — Youth Micro-Enterprise Accelerator",
     description:
-      "AI-powered business plans, funding matching, progress tracking, and mentorship for Uganda's youth entrepreneurs.",
-    images: ["/icons/icon-192.png"],
+      "AI-powered business plans, funding matching, market prices, and mentorship for Uganda's youth entrepreneurs. 27 business models. 13 funding sources.",
+    siteName: "HustleScale",
+    locale: "en_UG",
+    type: "website",
+    url: "/",
+    images: [
+      { url: "/og-image.svg", width: 1200, height: 630, alt: "HustleScale — Youth Micro-Enterprise Accelerator for Uganda", type: "image/svg+xml" },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HustleScale — Youth Micro-Enterprise Accelerator",
+    description:
+      "AI-powered business plans, funding matching, market prices & coaching for Uganda's youth entrepreneurs.",
+    images: ["/og-image.svg"],
   },
   appleWebApp: {
     capable: true,
