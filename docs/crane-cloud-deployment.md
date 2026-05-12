@@ -42,3 +42,23 @@ docker push landwind/hustle-coach:latest
 | `/v1/chat` | 200 | Groq LLM coaching response |
 | `/` | 200 | Frontend UI |
 | `/docs` | 200 | Swagger API docs |
+
+## Voice Streaming (Added 2026-05-12)
+
+WebSocket endpoint `/v1/voice/chat/stream` added for real-time voice conversations.
+
+| Feature | Status |
+|---------|--------|
+| Energy-based VAD | Enabled |
+| Sentence-chunked TTS | Enabled |
+| Barge-in | Enabled |
+| Sunbird STT/TTS | Requires `SUNBIRD_API_TOKEN` |
+| Multilingual (lg/nyn/sw) | Via Sunbird MT |
+
+See `docs/voice-system.md` for full protocol documentation.
+
+### Updated Production URL
+
+```
+https://hustle-coach-6774ea00.renu-01.cranecloud.io
+```
